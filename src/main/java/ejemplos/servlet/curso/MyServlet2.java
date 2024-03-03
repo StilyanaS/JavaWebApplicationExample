@@ -19,9 +19,9 @@ public class MyServlet2 extends HttpServlet {
 
 		// send HTML page to client
 		out.println("<html>");
-		out.println("<head><title>Ejemplo HTML desde Servlet</title></head>");
+		out.println("<head><title>Bienvenido</title></head>");
 		out.println("<body>");
-		out.println("<h1>Bienvenido!!</h1>");
+		out.println("<h1>Bienvenido" + response.getParameter("nombre") + "</h1>");
 	}
 
 }
