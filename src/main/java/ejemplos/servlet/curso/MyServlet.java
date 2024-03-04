@@ -25,7 +25,7 @@ public class MyServlet extends HttpServlet {
 		out.println("<form action=\"/MyServlet2\">>");
 		out.println("<label for=\"fname\">First name:</label><br>");
 		out.println("<input type=\"text\" id=\"name\" name=\"nombre\" value=\"Tu nombre\"><br>");
-		out.println("<input type="submit" value="Submit">");
+		out.println("<input type=\"submit\" value=\"Submit\">");
 		out.println("</form>");
 		out.println("</body></html>");
 	}
