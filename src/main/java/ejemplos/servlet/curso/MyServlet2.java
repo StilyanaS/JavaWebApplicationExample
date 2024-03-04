@@ -16,8 +16,6 @@ public class MyServlet2 extends HttpServlet {
 
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
-
-		// send HTML page to client
 		out.println("<html>");
 		out.println("<head><title>Bienvenido</title></head>");
 		out.println("<body>");
