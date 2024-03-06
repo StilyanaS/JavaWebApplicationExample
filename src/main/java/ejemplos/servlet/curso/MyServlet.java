@@ -19,10 +19,10 @@ public class MyServlet extends HttpServlet {
 
 		// send HTML page to client
 		out.println("<html>");
-		out.println("<head><title>Formmulario</title></head>");
+		out.println("<head><title>Formulario</title></head>");
 		out.println("<body>");
 		out.println("<h1>Ejemplo Servlet</h1>");
-		out.println("<form action=\"/MyServlet2\">>");
+		out.println("<form action=\"/myServlet2\">>");
 		out.println("<label for=\"fname\">First name:</label><br>");
 		out.println("<input type=\"text\" id=\"name\" name=\"nombre\" value=\"Name\"><br>");
 		out.println("<input type=\"submit\" value=\"Submit\">");
